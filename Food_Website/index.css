@@ -1,0 +1,124 @@
+/* Add font family */
+@font-face {
+    font-family: "Battamboang";
+    src: url(./Font/Battambang-Regular.ttf);
+}
+
+.greeting, .recipes-group, .group-card{
+    font-family: "Battambang", sans-serif;
+    font-size: 16px;
+    color: blue;
+    margin: none;
+    padding: none;
+}
+
+.text-recipeces{
+    font-family: "Battambang", sans-serif;
+}
+.about-us-content{
+    font-family: "Battambang";
+    
+}
+ 
+.nav{
+    height: 40px;
+    background-color: darkblue; 
+}
+.navbar-bar-container{
+
+    overflow:hidden;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    background-color: darkblue; 
+    /* margin-top:-30px;  */
+    height: 40px;
+    /* border: none !important; */ 
+}
+
+.container-fluid{
+    width: 100%;
+    height: 20%;
+    background-color: darkblue;
+}
+
+#navbarNav ul li {
+    padding: 0px 25px;
+}
+body{
+    background-color: #d0cece;
+}
+/* .bk-background-imag{
+    background-image: url('./imgRecipes/traditionalFood-banner.jpg');
+    background-size: cover;
+}  */
+
+.bk-background-image {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url(../imgRecipes/BANNER-FOOD.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  #greeting{
+    text-align: end;
+  }
+input {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+.input-box{
+    width: 600px;
+    padding: 12px;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    resize: vertical;
+}
+ .o-footer{
+    background-color: rgb(91, 91, 251);  
+ }
+/* contact us */
+
+ 
+
+ 
+ 
+form{
+    margin: 0 auto;
+}
+
+.bg-contact{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url(../imgRecipes/Cambodian-food.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+/* 0----------------- */
+ 
+/* .topic-visio{
+    background-image: url(./imgAbout/VisionBg.png);
+    background-size: 100%;
+    float: left;
+} */
+.form{
+
+    padding: 30px;
+    box-shadow: rgb(0, 0, 0) 2px 20px 50px;
+    backdrop-filter: blur(5px);
+    flex-wrap: wrap;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+ 
+

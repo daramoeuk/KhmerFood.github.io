@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container-fluid{
+    width: 100%;
+    height: 20%;
+    background-color: darkblue;
+}
+.top-menu{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 20%;
+}
+.top-menu .logo-box {
+    float: left;
+    width: 100px;
+    height: 80px;
+    margin-left: 50px;
+    /* background-color: red; */
+}
+
+.top-menu .menu{
+    width: 90%;
+    float: left;
+}
+.top-menu .menu ul{
+    float: right;
+    list-style-type: none;
+}
+.top-menu .menu ul li{
+    float:left;
+}
+.top-menu .menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 15px 50px;
+    font-size: 20px;
+    color: #fff;
+}
+.top-menu .menu ul li a:hover{
+    color:red;
+}
+.content{  
+    width: 100%;
+    height: 680px;
+}
+.content #kh-title{
+    font-size: 45px;
+    color:brown;
+    padding: 60px 130px 0px ;
+   
+}
+.content #eng-title{
+    font-size: 25px;
+    color:#000;
+    padding: 20px 180px;
+}
+
+.bg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+ /* Responsive */
+ /* [xl] Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px)
+  {
+    
+  }
+ /* [lg] large devices (desktops, 992px and up) */
+ @media (min-width: 992px) and (max-width: 1199.98px)
+  {
+    .menu{
+        display: none;
+    }
+    
+  }
+    
+ /* [md] Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) and (max-width: 991.98px)
+  {
+    
+   
+  }
+ /* [sm] Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) and (max-width: 767.98px)
+  {
+    
+    
+  }
+ /* [col] Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px)
+  {
+    
+    
+}
+
+     
+
+
+ 
+ 
+ 
